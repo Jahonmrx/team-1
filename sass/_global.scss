@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+$font_text: 'Inter', sans-serif;
+$font_montser: 'Montserrat', sans-serif;
+$font_select: 'DM Sans', sans-serif;
+
+// colors
+
+$color_kok: #043873;
+$color_och_kok: #4F9CF9;
+$color_text_black:#212529;
+$bg_kvadrat: #C4DEFD;
+
+html{
+    font-size: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font_text;
+}
+
+.container{
+    max-width: 95%;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+button{
+    border: none;
+    background-color: $color_och_kok;
+    color: white;
+}
