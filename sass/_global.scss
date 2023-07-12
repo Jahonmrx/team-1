@@ -5,7 +5,7 @@
 $font_text: 'Inter', sans-serif;
 $font_montser: 'Montserrat', sans-serif;
 $font_select: 'DM Sans', sans-serif;
-
+$font_size_primary: 1.8rem;
 // colors
 
 $color_kok: #043873;
@@ -25,7 +25,8 @@ html{
 }
 
 .container{
-    max-width: 95%;
+    max-width: 93%;
+    margin: 0 auto;
 }
 
 li{
