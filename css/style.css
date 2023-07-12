@@ -30,8 +30,204 @@ button {
   color: white;
 }
 
+.container {
+  width: 32rem;
+  margin: 0 auto;
+}
+
 .hero .container {
   display: flex;
+}
+
+.apps {
+  background-image: url(../img/Element.png);
+  background-color: #043873;
+  padding: 8rem 0;
+}
+.apps .apps__section-img {
+  margin-bottom: 10rem;
+}
+.apps .apps__section-img img {
+  width: 28.65rem;
+  height: 23.1758rem;
+}
+.apps .apps__section-text h2 {
+  color: #FFF;
+  text-align: center;
+  font-size: 3.6rem;
+  font-weight: 700;
+  letter-spacing: -0.072rem;
+  margin-bottom: 2.4rem;
+}
+.apps .apps__section-text h2 + p {
+  color: #FFF;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3rem;
+  letter-spacing: -0.036rem;
+  margin-bottom: 6rem;
+}
+.apps .apps__section-text button {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem 4rem;
+  border-radius: 0.8rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.apps .apps__section-text button a {
+  color: #FFF;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3rem;
+  letter-spacing: -0.36px;
+}
+.apps .apps__section-text button i {
+  font-size: 2.4rem;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  .apps {
+    padding: 14rem 0;
+    background-size: cover;
+  }
+  .apps .apps__section-img {
+    margin-bottom: 10rem;
+    margin-left: 12rem;
+  }
+  .apps .apps__section-img img {
+    width: 485px;
+    height: 392.33px;
+  }
+  .apps .apps__section-text h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 5.6rem;
+    font-weight: 700;
+    letter-spacing: -1.08px;
+    margin-bottom: 2.4rem;
+  }
+  .apps .apps__section-text h2 + p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 400;
+    line-height: 3rem;
+    letter-spacing: -0.036rem;
+    margin-bottom: 6rem;
+  }
+  .apps .apps__section-text button {
+    display: flex;
+    gap: 1rem;
+    padding: 2rem 4rem;
+    border-radius: 0.8rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .apps .apps__section-text button a {
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+  }
+  .apps .apps__section-text button i {
+    font-size: 2.4rem;
+  }
+}
+@media screen and (min-width: 1152px) {
+  .container {
+    width: 90%;
+  }
+  .apps {
+    background-size: cover;
+    padding: 14rem 0;
+  }
+  .apps .appses {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10rem;
+  }
+  .apps .apps__section-img {
+    margin: 0;
+  }
+  .apps .apps__section-img img {
+    width: 528px;
+    height: 427.114px;
+  }
+  .apps .apps__section-text h2 {
+    color: #FFF;
+    text-align: start;
+    font-size: 6.8rem;
+    letter-spacing: -1.28px;
+    margin-bottom: 2.4rem;
+  }
+  .apps .apps__section-text h2 + p {
+    text-align: left;
+    font-size: 2rem;
+  }
+  .apps .apps__section-text button {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .apps {
+    padding: 14rem 0;
+  }
+  .apps .apps__section-img {
+    margin-bottom: 10rem;
+  }
+  .apps .apps__section-img img {
+    width: 582px;
+    height: 470.796px;
+  }
+  .apps .apps__section-text h2 {
+    color: #FFF;
+    text-align: start;
+    font-size: 7.2rem;
+    font-weight: 700;
+    letter-spacing: -1.44px;
+    margin-bottom: 2.4rem;
+  }
+  .apps .apps__section-text h2 + p {
+    color: #FFF;
+    text-align: start;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3rem;
+    letter-spacing: -0.036rem;
+  }
+  .apps .apps__section-text button {
+    display: flex;
+    gap: 1rem;
+    padding: 2rem 4rem;
+    border-radius: 0.8rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  .apps .apps__section-text button a {
+    color: #FFF;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+    letter-spacing: -0.36px;
+  }
+  .apps .apps__section-text button i {
+    font-size: 2.4rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .container {
+    width: 86%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
