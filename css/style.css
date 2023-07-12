@@ -229,5 +229,383 @@ button {
     width: 86%;
   }
 }
+.testimon {
+  padding: 190px 0;
+}
+.testimon .container {
+  width: 32rem;
+}
+.testimon h2 {
+  display: block;
+  margin-top: -90px;
+  color: #212529;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  margin-bottom: 6rem;
+}
+.testimon h3 {
+  display: none;
+}
+.testimon .name_img {
+  margin-left: 40px;
+}
+.testimon .name_img img {
+  width: 100px;
+  height: 30px;
+}
+.testimon .t_c-boxes {
+  display: none;
+}
+.testimon .t_c-cards .b,
+.testimon .t_c-cards .c {
+  display: none;
+}
+.testimon .t_c-cards .a {
+  padding: 2rem;
+  background-color: #4F9CF9;
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+.testimon .t_c-cards .a .card_img {
+  margin-bottom: 3.2rem;
+}
+.testimon .t_c-cards .a .card_img a {
+  margin-bottom: 60px;
+}
+.testimon .t_c-cards .a .card_img a i {
+  font-size: 64px;
+  color: #FFF;
+}
+.testimon .t_c-cards .a h4 {
+  color: #FFF;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: -0.32px;
+  margin-bottom: 4rem;
+}
+.testimon .t_c-cards .a .lainer {
+  width: 100%;
+  height: 2px;
+  background-color: #FFF;
+  margin-bottom: 4rem;
+}
+.testimon .t_c-cards .a .t_c-box .t_c-box-img {
+  margin-bottom: 2.4rem;
+}
+.testimon .t_c-cards .a .t_c-box .t_c-box-img img {
+  width: 6.5rem;
+  height: 6.5rem;
+}
+.testimon .t_c-cards .a .t_c-box .t_c-box-text h5 {
+  color: #212529;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.36px;
+  margin-bottom: 1.5rem;
+}
+.testimon .t_c-cards .a .t_c-box .t_c-box-text p {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+}
+.testimon .t_c-cards .a:hover {
+  background-color: #FFF;
+  box-shadow: 15px 10px 50px 0px rgba(0, 0, 0, 0.1);
+}
+.testimon .t_c-cards .a:hover .card_img a i {
+  font-size: 70px;
+  color: #043873;
+}
+.testimon .t_c-cards .a:hover h4 {
+  color: #212529;
+}
+.testimon .t_c-cards .a:hover .lainer {
+  background-color: #043873;
+}
+.testimon .t_c-cards .a:hover .t_c-box .t_c-box-text p {
+  color: #212529;
+}
+.testimon .t_c-circles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+.testimon .t_c-circles .t_c-circle {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  background-color: #4f9cf9;
+  border: none;
+  cursor: pointer;
+}
+.testimon .t_c-circles .t_c-circle:hover {
+  background-color: #043873;
+}
+
+@media screen and (min-width: 768px) {
+  .testimon {
+    padding: 20rem 0;
+  }
+  .testimon .container {
+    width: 90%;
+  }
+  .testimon h2 {
+    display: none;
+  }
+  .testimon h3 {
+    width: 758px;
+    margin: 0 auto;
+    display: block;
+    color: #212529;
+    text-align: center;
+    font-size: 5.8rem;
+    font-weight: 700;
+    letter-spacing: -0.108rem;
+    margin-bottom: 6rem;
+  }
+  .testimon .name_img {
+    margin-bottom: -8rem;
+  }
+  .testimon .name_img img {
+    width: 230.334px;
+    height: 31.904px;
+    margin-left: 60rem;
+  }
+  .testimon .t_c-cards {
+    display: none;
+  }
+  .testimon .t_c-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3.2rem;
+    background-color: #fff;
+    margin-bottom: 6rem;
+    cursor: pointer;
+  }
+  .testimon .t_c-boxes .t_c-box {
+    background-color: #4f9cf9;
+    padding: 3rem;
+    color: #fff;
+    border-radius: 10px;
+  }
+  .testimon .t_c-boxes .t_c-box .imggg img {
+    width: 7rem;
+    height: 7rem;
+    margin-bottom: 3.5rem;
+  }
+  .testimon .t_c-boxes .t_c-box p {
+    width: 30rem;
+    text-align: left;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    letter-spacing: -0.036rem;
+    margin-bottom: 5rem;
+  }
+  .testimon .t_c-boxes .t_c-box .ends-text {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+  }
+  .testimon .t_c-boxes .t_c-box .ends-text h4 {
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.036rem;
+    margin-bottom: -0.7rem;
+  }
+  .testimon .t_c-boxes .t_c-box .ends-text h5 {
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    letter-spacing: -0.36px;
+  }
+  .testimon .t_c-boxes .t_c-box:hover {
+    background: #fff;
+    box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.08);
+    color: #01252a;
+  }
+  .testimon .t_c-circles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+  }
+  .testimon .t_c-circles .t_c-circle {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    background-color: #4f9cf9;
+    border: none;
+    cursor: pointer;
+  }
+  .testimon .t_c-circles .t_c-circle:hover {
+    background-color: #043873;
+  }
+}
+@media screen and (min-width: 1152px) {
+  .container {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .testimon h3 {
+    display: none;
+  }
+  .testimon .name_img img {
+    margin-left: 86rem;
+    margin-top: -1rem;
+  }
+  .testimon h2 {
+    display: flex;
+    color: #212529;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 84px;
+    justify-content: center;
+    margin-bottom: 6rem;
+  }
+  .testimon .t_c-boxes {
+    display: none;
+  }
+  .testimon .t_c-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3.2rem;
+    margin-bottom: 6rem;
+  }
+  .testimon .t_c-cards .a {
+    padding: 2rem;
+    background-color: #4F9CF9;
+    border-radius: 10px;
+    margin-top: 60px;
+  }
+  .testimon .t_c-cards .a .card_img {
+    margin-bottom: -0.1rem;
+  }
+  .testimon .t_c-cards .a .card_img a i {
+    font-size: 10rem;
+    color: #fff;
+    margin-bottom: 3.2rem;
+  }
+  .testimon .t_c-cards .a h4 {
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    letter-spacing: -0.036rem;
+    margin-bottom: 4rem;
+  }
+  .testimon .t_c-cards .a .lainer {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    opacity: 0.5;
+    margin-bottom: 6rem;
+  }
+  .testimon .t_c-cards .a .t_c-box {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 4.2rem;
+  }
+  .testimon .t_c-cards .a .t_c-box .t_c-box-text h5 {
+    color: #043873;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 3.6rem;
+    margin-bottom: 1.5rem;
+  }
+  .testimon .t_c-cards .a .t_c-box .t_c-box-text p {
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: -0.32px;
+  }
+  .testimon .t_c-cards .a,
+  .testimon .t_c-cards .b,
+  .testimon .t_c-cards .c {
+    display: block;
+    padding: 6rem 3rem;
+    border-radius: 10px;
+    background: #4f9cf9;
+    color: #fff;
+  }
+  .testimon .t_c-cards .a a i,
+  .testimon .t_c-cards .b a i,
+  .testimon .t_c-cards .c a i {
+    font-size: 10rem;
+    color: #fff;
+    margin-bottom: 3.2rem;
+  }
+  .testimon .t_c-cards .a h4,
+  .testimon .t_c-cards .b h4,
+  .testimon .t_c-cards .c h4 {
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    letter-spacing: -0.036rem;
+    margin-bottom: 4rem;
+  }
+  .testimon .t_c-cards .a .lainer,
+  .testimon .t_c-cards .b .lainer,
+  .testimon .t_c-cards .c .lainer {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    opacity: 0.5;
+    margin-bottom: 6rem;
+  }
+  .testimon .t_c-cards .a .t_c-box,
+  .testimon .t_c-cards .b .t_c-box,
+  .testimon .t_c-cards .c .t_c-box {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 4.2rem;
+  }
+  .testimon .t_c-cards .a .t_c-box h5,
+  .testimon .t_c-cards .b .t_c-box h5,
+  .testimon .t_c-cards .c .t_c-box h5 {
+    color: #043873;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 3.6rem;
+    margin-bottom: 1.5rem;
+  }
+  .testimon .t_c-cards .a .t_c-box p,
+  .testimon .t_c-cards .b .t_c-box p,
+  .testimon .t_c-cards .c .t_c-box p {
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: -0.32px;
+  }
+  .testimon .t_c-cards .t_c-card:hover {
+    background-color: #fff;
+    color: #01252a;
+    background: #fff;
+    box-shadow: 15px 10px 50px 0px rgba(0, 0, 0, 0.1);
+  }
+  .testimon .t_c-cards .t_c-card:hover a i {
+    color: #043873;
+  }
+  .testimon .t_c-cards .t_c-card:hover .lainer {
+    background-color: #01252a;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
