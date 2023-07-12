@@ -5,7 +5,7 @@
 $font_text: 'Inter', sans-serif;
 $font_montser: 'Montserrat', sans-serif;
 $font_select: 'DM Sans', sans-serif;
-
+$font_size_primary: 1.8rem;
 // colors
 
 $color_kok: #043873;
@@ -13,6 +13,8 @@ $color_och_kok: #4F9CF9;
 $color_text_black:#212529;
 $bg_kvadrat: #C4DEFD;
 $color_oq:#fff;
+$color-white:#FFF;
+
 
 html{
     font-size: 10px;
@@ -26,7 +28,8 @@ html{
 }
 
 .container{
-    max-width: 95%;
+    max-width: 93%;
+    margin: 0 auto;
 }
 
 li{
@@ -41,3 +44,10 @@ button{
     background-color: $color_och_kok;
     color: white;
 }
+.container{
+    width: 32rem;
+    margin: 0 auto;
+}
+// body{
+//     overflow-x: hidden;
+// }
