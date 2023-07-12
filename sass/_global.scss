@@ -12,6 +12,8 @@ $color_kok: #043873;
 $color_och_kok: #4F9CF9;
 $color_text_black:#212529;
 $bg_kvadrat: #C4DEFD;
+$color-white:#FFF;
+
 
 html{
     font-size: 10px;
@@ -41,3 +43,10 @@ button{
     background-color: $color_och_kok;
     color: white;
 }
+.container{
+    width: 32rem;
+    margin: 0 auto;
+}
+// body{
+//     overflow-x: hidden;
+// }
