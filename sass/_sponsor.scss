@@ -1,0 +1,143 @@
+.s_box {
+  padding: 8rem 0;
+  text-align: center;
+
+  h2 {
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.072rem;
+    color: $color_text_black;
+    position: relative;
+    margin-bottom: 10rem;
+
+    img {
+      width: 19.1001rem;
+      height: 2.2614rem;
+      position: absolute;
+      z-index: -1;
+      top: 3.5rem;
+      right: 0.3rem;
+    }
+  }
+
+  .s_imgs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    align-self: stretch;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .s_box {
+    padding: 14rem 0;
+
+    h2 {
+      font-size: 5.4rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -0.108rem;
+      position: relative;
+
+      img {
+        width: 25.9505rem;
+        height: 3.8768rem;
+        position: absolute;
+        top: 4.1rem;
+        right: 17.8rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1152px) {
+  .s_box {
+    padding: 14rem 0;
+
+    h2 {
+      position: relative;
+      letter-spacing: -0.128rem;
+
+      img {
+        position: absolute;
+        width: 29.8281rem;
+        height: 4.1677rem;
+        bottom: 0;
+        right: 34.5rem;
+      }
+    }
+
+    .s_imgs {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .s_box {
+    padding: 14rem 0;
+
+    h2 {
+      font-size: 7.2rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -0.144rem;
+
+      img {
+        left: 61.3rem;
+        top: 5.5rem;
+      }
+    }
+  }
+}
+
+// @media screen and (min-width: 1920px) {
+//   .s_box {
+//     padding: 14rem 0;
+
+//     h2 {
+//       position: relative;
+//       img {
+//         position: absolute;
+//         left: 61.3rem;
+//         top: 5.5rem;
+//       }
+//     }
+//   }
+// }
+
+@media (min-width: 768px) {
+  container {
+    max-width: 72.8rem;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1152px) {
+  container {
+    max-width: 108.8rem;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  container {
+    max-width: 137.6rem;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  container {
+    max-width: 148.2rem;
+    margin: 0 auto;
+  }
+}
