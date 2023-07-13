@@ -1,0 +1,207 @@
+.apps {
+  background-image: url(../img/Element.png);
+  background-color: $color_kok;
+  padding: 8rem 0;
+  .apps__section-img {
+    margin-bottom: 10rem;
+    img {
+      width: 28.65rem;
+      height: 23.1758rem;
+    }
+  }
+  @mixin app {
+    color: $color-white;
+    text-align: center;
+  }
+  .apps__section-text {
+    h2 {
+      @include app;
+      font-size: 3.6rem;
+      font-weight: 700;
+      letter-spacing: -0.072rem;
+      margin-bottom: 2.4rem;
+      + p {
+        @include app;
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 3rem;
+        letter-spacing: -0.036rem;
+        margin-bottom: 6rem;
+      }
+    }
+    button {
+      display: flex;
+      gap: 1rem;
+      padding: 2rem 4rem;
+      border-radius: 0.8rem;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      a {
+        color: $color-white;
+        font-size: 1.8rem;
+        font-weight: 400;
+        line-height: 3rem;
+        letter-spacing: -0.36px;
+      }
+      i {
+        font-size: 2.4rem;
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    // margin: 0 auto;
+  }
+  .apps {
+    padding: 14rem 0;
+    background-size: cover;
+    .apps__section-img {
+      margin-bottom: 10rem;
+      margin-left: 12rem;
+      img {
+        width: 485px;
+        height: 392.33px;
+      }
+    }
+    @mixin app {
+      color: $color-white;
+      text-align: center;
+    }
+    .apps__section-text {
+      h2 {
+        @include app;
+        font-size: 5.6rem;
+        font-weight: 700;
+        letter-spacing: -1.08px;
+        margin-bottom: 2.4rem;
+        + p {
+          @include app;
+          font-size: 1.9rem;
+          font-weight: 400;
+          line-height: 3rem;
+          letter-spacing: -0.036rem;
+          margin-bottom: 6rem;
+        }
+      }
+      button {
+        display: flex;
+        gap: 1rem;
+        padding: 2rem 4rem;
+        border-radius: 0.8rem;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        a {
+          color: $color-white;
+          font-family: $font_montser;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 23px;
+        }
+        i {
+          font-size: 2.4rem;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1152px) {
+  .container {
+    width: 90%;
+  }
+  .apps {
+    background-size: cover;
+    padding: 14rem 0;
+    .appses {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10rem;
+    }
+    .apps__section-img {
+      margin: 0;
+      img {
+        width: 528px;
+        height: 427.114px;
+      }
+    }
+    @mixin app {
+      color: $color-white;
+      text-align: start;
+    }
+    .apps__section-text {
+      h2 {
+        @include app;
+        font-size: 6.8rem;
+        letter-spacing: -1.28px;
+        margin-bottom: 2.4rem;
+        + p {
+          text-align: left;
+          font-size: 2rem;
+        }
+      }
+      button {
+        margin: 0;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1440px) {
+  .apps {
+    padding: 14rem 0;
+    .apps__section-img {
+      margin-bottom: 10rem;
+      img {
+        width: 582px;
+        height: 470.796px;
+      }
+    }
+    @mixin app {
+      color: $color-white;
+      text-align: start;
+    }
+    .apps__section-text {
+      h2 {
+        @include app;
+        font-size: 7.2rem;
+        font-weight: 700;
+        letter-spacing: -1.44px;
+        margin-bottom: 2.4rem;
+        + p {
+          @include app;
+          font-size: 2rem;
+          font-weight: 400;
+          line-height: 3rem;
+          letter-spacing: -0.036rem;
+        }
+      }
+      button {
+        display: flex;
+        gap: 1rem;
+        padding: 2rem 4rem;
+        border-radius: 0.8rem;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        a {
+          color: $color-white;
+          font-size: 1.8rem;
+          font-weight: 400;
+          line-height: 3rem;
+          letter-spacing: -0.36px;
+        }
+        i {
+          font-size: 2.4rem;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1920px) {
+    .container{
+        width: 86%;
+    }
+}
