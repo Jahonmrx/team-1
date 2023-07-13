@@ -190,3 +190,31 @@
     }
   }
 }
+
+@media (min-width: 768px) {
+  container {
+    max-width: 72.8rem;
+    margin: 0 auto;
+  }
+}
+    
+@media screen and (min-width: 1152px) {
+  container {
+    max-width: 108.8rem;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  container {
+    max-width: 137.6rem;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  container {
+    max-width: 148.2rem;
+    margin: 0 auto;
+  }
+}
