@@ -2,17 +2,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 
-$font_text: "Inter", sans-serif;
-$font_montser: "Montserrat", sans-serif;
-$font_select: "DM Sans", sans-serif;
-
+$font_text: 'Inter', sans-serif;
+$font_montser: 'Montserrat', sans-serif;
+$font_select: 'DM Sans', sans-serif;
+$font_size_primary: 1.8rem;
 // colors
 
 $color_kok: #043873;
-$color_och_kok: #4f9cf9;
-$color_text_black: #212529;
-$bg_kvadrat: #c4defd;
-$color_white: #fff;
+$color_och_kok: #4F9CF9;
+$color_text_black:#212529;
+$bg_kvadrat: #C4DEFD;
+$color-white:#FFF;
+
 
 html {
   font-size: 10px;
@@ -25,9 +26,14 @@ html {
   font-family: $font_text;
 }
 
+
 .container {
   max-width: 95%;
   margin: 0 auto;
+}
+.container{
+    max-width: 93%;
+    margin: 0 auto;
 }
 
 li {
@@ -106,3 +112,10 @@ button {
   font-weight: 600;
   line-height: 3.6rem;
 }
+.container{
+    width: 32rem;
+    margin: 0 auto;
+}
+// body{
+//     overflow-x: hidden;
+// }

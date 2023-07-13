@@ -1,0 +1,108 @@
+header {
+  background-color: $color_kok;
+}
+nav {
+  .container{
+    display: flex;
+    justify-content: space-between;
+  }
+  padding: 16px 0;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  img{
+    width: 25.958px;
+    height: 20.346px;
+  }
+  h1 {
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: white;
+  }
+}
+.nav_right{
+    ul{
+        display: none;
+    }
+}
+.nav_btn>button{
+    display: none;
+}
+@media screen and (min-width:768px) {
+    nav{
+        margin-bottom: 14rem;
+    }
+    .logo{
+        img{
+            width: 3.7rem;
+            height: 2.9rem;
+        }
+        h1{
+            font-size: 2.8rem;
+        }
+    }
+}
+@media screen and (min-width:1152px){
+    .nav_btn>button{
+        display: flex;
+    }
+    .nav_btn{
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        .login {
+            font-weight: 500;
+            font-size: $font_size_primary;
+            color: $color_kok;
+            padding: 16px 40px;
+            border-radius: 8px;
+            background: #ffe492;
+        }
+        .log2 {
+            font-weight: 500;
+            font-size: $font_size_primary;
+            color: white;
+            padding: 16px 24px;
+            border-radius: 8px;
+            background-color: $color_och_kok;
+            align-items: center;
+            img {
+            margin-left: 10px;
+            }
+        }
+    }
+}
+@media screen and (min-width:1440px){
+    .container{
+        max-width: 96%;
+    }
+    nav{
+        margin-bottom: 10rem;
+    }
+    .nav_right{
+        display: flex;
+        gap: 6rem;
+        align-items: center;
+        ul{
+            display: flex;
+            gap: 3.2rem;
+        }
+        .nav_right {
+            display: flex;
+            gap: 60px;
+            align-items: center;
+        }
+        select {
+        border: none;
+        background-color: $color_kok;
+        color: white;
+        font-weight: 500;
+        font-size: $font_size_primary;
+        }
+    }
+    .menu_bar{
+        display: none;
+    }
+}
