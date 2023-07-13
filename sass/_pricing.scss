@@ -1,0 +1,248 @@
+.pricing {
+  padding: 8rem 0;
+  .h2_img {
+    max-width: 28.8rem;
+    margin: 0 auto 2.4rem;
+    position: relative;
+    h2 {
+      @include h2_fonts;
+    }
+    img {
+      width: 12rem;
+      position: absolute;
+      right: 7rem;
+      bottom: 0.1rem;
+      z-index: -1;
+    }
+  }
+  p {
+    @include p_fonts;
+  }
+  .pricing__cards {
+    margin: 6rem 0;
+    .card1 {
+      padding: 2rem;
+      border-radius: 1rem;
+      border: 1px solid #ffe492;
+      h5 {
+        @include pricing_card_h5;
+      }
+      h4 {
+        margin: 2.5rem 0;
+        font-size: 3.6rem;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.72px;
+      }
+      p {
+        @include pricing_card_hover_li;
+        text-align: start;
+        margin-bottom: 2.5rem;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 2.8rem;
+        margin-bottom: 2.5rem;
+      }
+      li {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        @include pricing_card_li;
+        i {
+          font-size: 2.5rem;
+        }
+      }
+      &:first-child {
+        display: none;
+      }
+      &:nth-child(3) {
+        display: none;
+      }
+      &:hover {
+        box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.08);
+        padding: 2rem;
+        background: #043873;
+        border: none;
+        h5 {
+          color: $color_white;
+        }
+        h4 {
+          color: #ffe492;
+        }
+        p {
+          color: $color_white;
+        }
+        li {
+          color: $color_white;
+          i {
+            color: #ffe492;
+          }
+        }
+        button {
+          background: $color_och_kok;
+          border: none;
+          color: $color_white;
+        }
+      }
+      button {
+        padding: 1.6rem 4rem;
+        border-radius: 0.8rem;
+        border: 1px solid #ffe492;
+        background: $color_white;
+        color: $color_text_black;
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.32px;
+      }
+    }
+  }
+  .points {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    .point {
+      border-radius: 50%;
+      width: 1.2rem;
+      height: 1.2rem;
+      background: $color_och_kok;
+      &:nth-child(2) {
+        background: $color_kok;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .pricing {
+    overflow-x: hidden;
+    padding: 14rem 0;
+    .h2_img {
+      max-width: 72.8rem;
+      h2 {
+        @include h2_tel_2ga;
+      }
+      img {
+        width: 30rem;
+        right: 7rem;
+        bottom: -0.5rem;
+      }
+    }
+    .pricing__cards {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 3.2rem;
+      .card1 {
+        padding: 4rem 4.4rem;
+        &:first-child {
+          display: block;
+        }
+        &:nth-child(3) {
+          display: block;
+        }
+        &:hover {
+          padding: 8rem 4.4rem;
+        }
+        li {
+          width: 38.4rem;
+        }
+      }
+    }
+    .points {
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: 1152px) {
+  .pricing {
+    overflow-x: hidden;
+    .h2_img {
+      max-width: 137.6rem;
+      h2 {
+        @include h2_comp_1152;
+      }
+      img {
+        width: 34rem;
+        right: 21rem;
+        bottom: -0.5rem;
+      }
+    }
+    p {
+      max-width: 97.9rem;
+      margin: 0 auto 2.5rem;
+    }
+    .pricing__cards {
+      .card1 {
+        &:hover {
+          padding: 8rem 2rem;
+        }
+        li {
+          width: 25.3rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .pricing {
+    .h2_img {
+      max-width: 108.8rem;
+      h2 {
+        @include h2_comp_1440;
+      }
+      img {
+        width: 34rem;
+        right: 21rem;
+        bottom: -0.5rem;
+      }
+    }
+    p {
+      max-width: 97.9rem;
+      margin: 0 auto 2.5rem;
+    }
+    .pricing__cards {
+      justify-content: spacea space-around;
+      .card1 {
+        &:hover {
+          padding: 8rem 4rem;
+        }
+        li {
+          width: 34.9rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .pricing {
+    .h2_img {
+      max-width: 148rem;
+      h2 {
+        @include h2_comp_1920;
+      }
+      img {
+        width: 35rem;
+        right: 40rem;
+        bottom: -0.5rem;
+      }
+    }
+    .pricing__cards {
+      justify-content: spacea space-around;
+      .card1 {
+        &:hover {
+          padding: 8rem 4rem;
+        }
+        li {
+          width: 34rem;
+        }
+      }
+    }
+  }
+}
